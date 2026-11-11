@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ProFix Home Services LLC | Bay Area Repairs & Remodels</title>
+<meta name="description" content="ProFix Home Services LLC provides small repairs, rental turnovers, flooring and finish work, kitchen and bath updates, exterior repairs, and remodel coordination across the Bay Area.">
+<style>
+:root{--ink:#171717;--ink2:#242424;--paper:#f6f4ef;--soft:#ebe7de;--orange:#f59e0b;--orange2:#fbbf24;--muted:#666}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--paper);color:var(--ink);line-height:1.5}a{text-decoration:none;color:inherit}img{display:block;width:100%}.shell{width:min(1180px,calc(100% - 32px));margin:auto}
+nav{position:sticky;top:0;z-index:40;background:rgba(15,15,15,.97);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.09)}.navin{min-height:74px;display:flex;align-items:center;gap:22px}.brand{display:flex;align-items:center;gap:11px;color:white;font-weight:900;letter-spacing:-.02em}.mark{display:grid;place-items:center;width:42px;height:42px;background:var(--orange);color:#111827;font-weight:950;border-radius:8px;clip-path:polygon(50% 0,100% 28%,100% 100%,0 100%,0 28%)}.brand small{display:block;color:#bdbdbd;font-size:10px;letter-spacing:.14em;text-transform:uppercase}.navlinks{margin-left:auto;display:flex;align-items:center;gap:22px}.navlinks>a:not(.btn){color:#e5e5e5;font-size:13px;font-weight:750}.navlinks>a:not(.btn):hover{color:var(--orange2)}.navactions{display:flex;gap:9px;align-items:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 18px;border-radius:8px;font-weight:850;border:1px solid transparent;transition:.18s ease;cursor:pointer;font:inherit}.primary{background:var(--orange);color:#151515}.primary:hover{background:var(--orange2);transform:translateY(-1px)}.dark{background:#191919;color:white;border-color:#333}.outline{background:transparent;color:white;border-color:#444}.outline:hover{border-color:var(--orange);color:var(--orange2)}
+.menu{display:none;background:#1e1e1e;color:white;border:1px solid #3c3c3c;border-radius:8px;padding:9px 12px;font-weight:800}.mobile{display:none;background:#151515;border-top:1px solid #2d2d2d;padding:10px 16px 16px}.mobile.open{display:grid;gap:8px}.mobile a{color:white;padding:11px 10px;border-radius:7px;font-weight:750}.mobile a:hover{background:#222}
+.hero{min-height:610px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(10,10,10,.94),rgba(10,10,10,.78) 43%,rgba(10,10,10,.22)),url('https://images.pexels.com/photos/28885519/pexels-photo-28885519/free-photo-of-residential-home-construction-and-renovation.jpeg?auto=compress&dpr=1&h=900&w=1600') center/cover no-repeat}.heroct{max-width:730px;padding:86px 0}.kicker{display:inline-flex;align-items:center;gap:8px;color:var(--orange2);font-weight:900;text-transform:uppercase;letter-spacing:.13em;font-size:12px}.kicker:before{content:"";width:34px;height:3px;background:var(--orange);border-radius:999px}.hero h1{margin:18px 0;color:white;font-size:clamp(44px,7vw,82px);line-height:.95;letter-spacing:-.055em;font-weight:950}.hero p{max-width:670px;color:#e7e7e7;font-size:clamp(17px,2vw,21px);line-height:1.65}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.trust{margin-top:34px;display:flex;flex-wrap:wrap;gap:14px 22px;color:#d4d4d4;font-size:13px;font-weight:700}.trust span{display:flex;align-items:center;gap:8px}.dot{width:7px;height:7px;border-radius:50%;background:var(--orange);display:inline-block}
+section{padding:84px 0}.darksec{background:var(--ink);color:white}.soft{background:var(--soft)}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:#d97706}h2{margin:10px 0 16px;font-size:clamp(34px,5vw,56px);line-height:1.02;letter-spacing:-.04em;font-weight:950}.lead{max-width:780px;font-size:18px;color:#5e5e5e;line-height:1.7}.darksec .lead{color:#c7c7c7}
+.services{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:38px}.service{background:white;border:1px solid #dedbd2;border-radius:14px;padding:24px;min-height:210px}.service .icon{width:42px;height:42px;border-radius:10px;display:grid;place-items:center;background:#fef3c7;font-size:21px}.service strong{display:block;font-size:19px;margin:15px 0 8px}.service p{color:#6b6b6b;font-size:14px;line-height:1.6}.note{margin-top:18px;padding:16px 18px;background:#fff7e6;border-left:4px solid var(--orange);border-radius:8px;color:#5f4b28;font-size:14px}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:36px}.photo{position:relative;overflow:hidden;border-radius:14px;min-height:300px;background:#272727}.photo img{height:100%;object-fit:cover}.cap{position:absolute;inset:auto 0 0;padding:44px 20px 18px;background:linear-gradient(transparent,rgba(0,0,0,.82));color:white}.cap strong{font-size:18px}.cap span{display:block;color:#d6d6d6;font-size:13px;margin-top:3px}
+.process{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:38px;border:1px solid #353535;border-radius:14px;overflow:hidden}.step{padding:28px;border-right:1px solid #353535;background:#202020}.step:last-child{border-right:0}.step b{display:block;color:var(--orange);font-size:13px;margin-bottom:22px}.step strong{display:block;font-size:18px;margin-bottom:8px}.step span{color:#bdbdbd;font-size:14px;line-height:1.6}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.tag{padding:9px 13px;border-radius:999px;background:white;border:1px solid #d5d0c5;font-size:13px;font-weight:750;color:#494949}
+.contact{display:grid;grid-template-columns:.85fr 1.15fr;gap:34px;align-items:start}.contactcard{background:var(--ink);color:white;border-radius:16px;padding:30px}.contactcard h3{font-size:29px;margin:8px 0 12px}.contactcard p{color:#cfcfcf;line-height:1.7}.contactactions{display:grid;gap:10px;margin-top:22px}.contactmeta{margin-top:22px;padding-top:20px;border-top:1px solid #343434}.contactmeta div{margin-top:10px}.contactmeta strong{display:block;color:white;font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:3px}.contactmeta a{color:var(--orange2);font-weight:800;word-break:break-word}
+form{background:white;border:1px solid #dcd7cd;border-radius:16px;padding:26px}form h3{font-size:24px;margin:0 0 6px}.formintro{color:#6b6b6b;font-size:14px;margin:0 0 20px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:grid;gap:6px}.full{grid-column:1/-1}.field label{font-size:12px;font-weight:850;text-transform:uppercase;letter-spacing:.06em;color:#5e5e5e}.field input,.field select,.field textarea{width:100%;border:1px solid #ccc7bc;background:#fbfaf7;border-radius:9px;padding:12px 13px;font:inherit;color:#222;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--orange);box-shadow:0 0 0 3px rgba(245,158,11,.13)}.field textarea{min-height:125px;resize:vertical}.formactions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.status{min-height:22px;margin-top:10px;font-size:13px;color:#606060}
+footer{background:#0e0e0e;color:#aaa;padding:30px 0}.footerin{display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:12px}footer strong{color:white}
+@media(max-width:980px){.navlinks{display:none}.menu{display:inline-flex}.navactions{margin-left:auto}.navactions .outline{display:none}.services{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery{grid-template-columns:1fr 1fr}.contact{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.step:nth-child(2){border-right:0}.step:nth-child(-n+2){border-bottom:1px solid #353535}}
+@media(max-width:580px){.shell{width:min(100% - 22px,1180px)}.navin{min-height:64px}.brand span:last-child{font-size:13px}.brand small{font-size:8px}.navactions .primary{display:none}.hero{min-height:560px;background:linear-gradient(180deg,rgba(10,10,10,.55),rgba(10,10,10,.95) 68%),url('https://images.pexels.com/photos/28885519/pexels-photo-28885519/free-photo-of-residential-home-construction-and-renovation.jpeg?auto=compress&dpr=1&h=900&w=1600') center/cover no-repeat}.heroct{padding:66px 0 54px}section{padding:62px 0}.services,.gallery,.process,.fields{grid-template-columns:1fr}.step{border-right:0;border-bottom:1px solid #353535}.step:last-child{border-bottom:0}.contactcard,form{padding:21px}.formactions{display:grid}.footerin{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="shell navin">
+    <a class="brand" href="#top"><span class="mark">PF</span><span><span>ProFix Home Services LLC</span><small>Repairs • Improvements • Remodels</small></span></a>
+    <div class="navlinks">
+      <a href="#services">Services</a><a href="#work">Our Work</a><a href="#process">How It Works</a><a href="#area">Service Area</a><a href="#estimate">Contact</a>
+    </div>
+    <div class="navactions">
+      <a class="btn outline" href="sms:+17078197213">Text Us</a>
+      <a class="btn primary" href="#estimate">Free Estimate</a>
+      <button id="menuBtn" class="menu" type="button" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="mobile">
+    <a href="#services">Services</a><a href="#work">Our Work</a><a href="#process">How It Works</a><a href="#area">Service Area</a><a href="#estimate">Contact</a><a href="sms:+17078197213">Text ProFix</a><a class="btn primary" href="#estimate">Get a Free Estimate</a>
+  </div>
+</nav>
+
+<header id="top" class="hero"><div class="shell"><div class="heroct">
+  <div class="kicker">Professional home services</div>
+  <h1>Small jobs.<br>Big results.</h1>
+  <p>From quick service calls and punch lists to property improvements and complete remodels, ProFix Home Services LLC helps homeowners and property managers get the job moving.</p>
+  <div class="actions"><a class="btn primary" href="#estimate">Get a Free Estimate</a><a class="btn dark" href="sms:+17078197213">Text ProFix</a></div>
+  <div class="trust"><span><i class="dot"></i>Small jobs welcome</span><span><i class="dot"></i>Residential improvements</span><span><i class="dot"></i>Bay Area service</span></div>
+</div></div></header>
+
+<section id="services"><div class="shell">
+  <div class="eyebrow">What we handle</div><h2>One call for the work your property needs.</h2>
+  <p class="lead">From the small repair nobody wants to take to a larger property improvement, ProFix is built to handle practical construction and home-service work without making the process complicated.</p>
+  <div class="services">
+    <article class="service"><div class="icon">🛠️</div><strong>Small Repairs & Handyman Work</strong><p>Punch lists, minor repairs, mounting, patching, adjustments, hardware replacement, trim work, and everyday home maintenance.</p></article>
+    <article class="service"><div class="icon">🏠</div><strong>Rental Turnovers & Make-Ready</strong><p>Repairs, touch-ups, flooring, trim, cleanup, and final punch-list work for landlords and property managers.</p></article>
+    <article class="service"><div class="icon">🪵</div><strong>Flooring, Baseboards & Finish Work</strong><p>Flooring installation and repair, baseboards, transitions, trim, doors, and other interior finish details.</p></article>
+    <article class="service"><div class="icon">🎨</div><strong>Drywall & Interior Painting</strong><p>Drywall repair, patching, wall preparation, interior painting, trim painting, touch-ups, and room refresh projects.</p></article>
+    <article class="service"><div class="icon">🚪</div><strong>Doors, Cabinets & Fixtures</strong><p>Door installation and adjustment, cabinet hardware, shelving, fixtures, accessories, and general interior installations.</p></article>
+    <article class="service"><div class="icon">🚿</div><strong>Kitchen & Bathroom Updates</strong><p>Flooring, tile, trim, cabinetry-related improvements, painting, demolition, preparation, and coordinated room upgrades.</p></article>
+    <article class="service"><div class="icon">🏗️</div><strong>Exterior Repairs & Property Maintenance</strong><p>Exterior trim, siding repairs, fencing, decks, gates, painting preparation, weathered components, and general upkeep.</p></article>
+    <article class="service"><div class="icon">📐</div><strong>Remodels & Larger Projects</strong><p>Single-room renovations and larger property improvements with organized demolition, preparation, finishes, scheduling, and closeout.</p></article>
+  </div>
+  <div class="note">Specialized electrical, plumbing, HVAC, structural, and other licensed trade work is coordinated with appropriately licensed professionals when required by the project.</div>
+</div></section>
+
+<section id="work" class="darksec"><div class="shell">
+  <div class="eyebrow">Our work</div><h2>Real work. Practical solutions.</h2><p class="lead">ProFix focuses on the repairs, improvements, and remodel work homeowners and property managers need every day.</p>
+  <div class="gallery">
+    <figure class="photo"><img src="https://images.pexels.com/photos/6474460/pexels-photo-6474460.jpeg?auto=compress&dpr=1&h=750&w=1260" alt="Contractor carrying tools"><figcaption class="cap"><strong>Small Repairs</strong><span>Service calls and punch-list work</span></figcaption></figure>
+    <figure class="photo"><img src="https://images.pexels.com/photos/5493676/pexels-photo-5493676.jpeg?auto=compress&dpr=1&h=750&w=1260" alt="Worker measuring during renovation"><figcaption class="cap"><strong>Rental Turnovers</strong><span>Make-ready and property improvements</span></figcaption></figure>
+    <figure class="photo"><img src="https://images.pexels.com/photos/29181494/pexels-photo-29181494/free-photo-of-construction-worker-laying-tile-in-renovation-project.jpeg?auto=compress&dpr=1&h=750&w=1260" alt="Worker installing tile"><figcaption class="cap"><strong>Flooring & Finish Work</strong><span>Flooring, trim, tile, and details</span></figcaption></figure>
+    <figure class="photo"><img src="https://images.pexels.com/photos/28885519/pexels-photo-28885519/free-photo-of-residential-home-construction-and-renovation.jpeg?auto=compress&dpr=1&h=750&w=1260" alt="Residential renovation"><figcaption class="cap"><strong>Kitchen & Bath Updates</strong><span>Room improvements and finishes</span></figcaption></figure>
+    <figure class="photo"><img src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&dpr=1&h=750&w=1260" alt="Exterior construction project"><figcaption class="cap"><strong>Exterior Repairs</strong><span>Siding, fencing, trim, decks, and upkeep</span></figcaption></figure>
+    <figure class="photo"><img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&dpr=1&h=750&w=1260" alt="Construction renovation project"><figcaption class="cap"><strong>Larger Remodels</strong><span>From preparation through final finish</span></figcaption></figure>
+  </div>
+</div></section>
+
+<section id="process" class="darksec"><div class="shell">
+  <div class="eyebrow">How it works</div><h2>Four steps from request to completion.</h2>
+  <div class="process">
+    <div class="step"><b>01</b><strong>Tell us the job</strong><span>Describe what needs attention and include measurements or photos when available.</span></div>
+    <div class="step"><b>02</b><strong>Define the scope</strong><span>We organize repairs, improvements, materials, and larger-project items.</span></div>
+    <div class="step"><b>03</b><strong>Approve the work</strong><span>Review the scope and move forward with the work that makes sense for your property.</span></div>
+    <div class="step"><b>04</b><strong>Complete & close out</strong><span>Finish the work, review it, clean up, and close out the project.</span></div>
+  </div>
+</div></section>
+
+<section id="area"><div class="shell">
+  <div class="eyebrow">Service area</div><h2>Local Bay Area home services.</h2><p class="lead">Serving homeowners, landlords, and property-management clients throughout key Bay Area communities.</p>
+  <div class="tags"><span class="tag">Vallejo</span><span class="tag">Benicia</span><span class="tag">American Canyon</span><span class="tag">Napa</span><span class="tag">Richmond</span><span class="tag">Berkeley</span><span class="tag">Oakland</span><span class="tag">San Rafael</span></div>
+</div></section>
+
+<section id="estimate" class="soft"><div class="shell contact">
+  <aside class="contactcard">
+    <div class="eyebrow">Start a project</div><h3>Get a free estimate.</h3><p>Tell us what needs to be done. You can send your project request by text or email.</p>
+    <div class="contactactions"><a class="btn primary" href="sms:+17078197213">Text ProFix</a><a class="btn dark" href="mailto:profixhomeservicesllc@gmail.com">Email ProFix</a></div>
+    <div class="contactmeta"><div><strong>Text / Phone</strong><a href="sms:+17078197213">(707) 819-7213</a></div><div><strong>Email</strong><a href="mailto:profixhomeservicesllc@gmail.com">profixhomeservicesllc@gmail.com</a></div></div>
+  </aside>
+  <form id="estimateForm">
+    <h3>Tell us about the project</h3><p class="formintro">Fill this out and choose text or email to prepare your request.</p>
+    <div class="fields">
+      <div class="field"><label for="name">Name</label><input id="name" required autocomplete="name" placeholder="Your name"></div>
+      <div class="field"><label for="contact">Phone or email</label><input id="contact" required placeholder="Best way to reach you"></div>
+      <div class="field"><label for="city">Project city</label><input id="city" required placeholder="City"></div>
+      <div class="field"><label for="type">Project type</label><select id="type" required><option value="">Choose one</option><option>Small repair / handyman work</option><option>Rental turnover / make-ready</option><option>Flooring / baseboards / finish work</option><option>Drywall / interior painting</option><option>Doors / cabinets / fixtures</option><option>Kitchen / bathroom update</option><option>Exterior repair / maintenance</option><option>Remodel / larger project</option><option>Other</option></select></div>
+      <div class="field full"><label for="details">What needs to be done?</label><textarea id="details" required placeholder="Describe the repair, improvement, or remodel."></textarea></div>
+    </div>
+    <div class="formactions"><button id="textBtn" class="btn primary" type="button">Send by Text</button><button id="emailBtn" class="btn dark" type="button">Send by Email</button></div>
+    <div id="status" class="status" aria-live="polite"></div>
+  </form>
+</div></section>
+
+<footer><div class="shell footerin"><div><strong>ProFix Home Services LLC</strong><br>Small jobs • Property improvements • Remodels</div><div>© 2026 ProFix Home Services LLC</div></div></footer>
+
+<script>
+const menuBtn=document.getElementById('menuBtn'),mobileMenu=document.getElementById('mobileMenu');
+menuBtn.addEventListener('click',()=>{const open=mobileMenu.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'Close':'Menu'});
+mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobileMenu.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='Menu'}));
+function buildMessage(){
+  const name=document.getElementById('name').value.trim(),contact=document.getElementById('contact').value.trim(),city=document.getElementById('city').value.trim(),type=document.getElementById('type').value.trim(),details=document.getElementById('details').value.trim(),status=document.getElementById('status');
+  if(!name||!contact||!city||!type||!details){status.textContent='Please complete all project fields first.';return null}
+  return ['ProFix Estimate Request','Name: '+name,'Contact: '+contact,'Project city: '+city,'Project type: '+type,'','Project details:',details].join('\n')
+}
+document.getElementById('textBtn').addEventListener('click',()=>{const body=buildMessage();if(!body)return;document.getElementById('status').textContent='Opening your text app with the project details.';location.href='sms:+17078197213?body='+encodeURIComponent(body)});
+document.getElementById('emailBtn').addEventListener('click',()=>{const body=buildMessage();if(!body)return;document.getElementById('status').textContent='Opening your email app with the project details.';location.href='mailto:profixhomeservicesllc@gmail.com?subject='+encodeURIComponent('ProFix Estimate Request')+'&body='+encodeURIComponent(body)});
+</script>
+</body>
+</html>
